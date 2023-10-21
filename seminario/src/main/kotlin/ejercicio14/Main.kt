@@ -1,5 +1,12 @@
 package ejercicio14
-
+//Crea una función que dado un número n imprima el siguiente ‘mosaico’
+//(para n = 6):
+//1
+//22
+//333
+//4444
+//55555
+//666666
 fun main(){
     val alturaMosaico = 6
     println(imprimirMosaico(alturaMosaico))

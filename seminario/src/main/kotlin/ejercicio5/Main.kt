@@ -7,6 +7,7 @@ fun main(){
     //Con la otra funcion
     println("La letra $letra aparece ${optimizado(texto, letra)} veces")
 }
+//A pelo
 fun numeroVecesLetra(texto: String, letra: Char): Int{
     var contador = 0
     texto.forEach { caracter ->
@@ -16,5 +17,5 @@ fun numeroVecesLetra(texto: String, letra: Char): Int{
     }
     return contador
 }
-
+//Usando función específica
 fun optimizado (texto: String, letra: Char): Int = texto.count { elemento -> elemento == letra }

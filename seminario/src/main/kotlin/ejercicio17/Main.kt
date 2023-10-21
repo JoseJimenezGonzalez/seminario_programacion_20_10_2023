@@ -6,7 +6,12 @@ fun main(){
     println("Lista inicial")
     println(lista)
     println("Lista numeros pares")
-    println("${listaNumerosPares(lista)}")
+    val listaNumerosPares = listaNumerosPares(lista)
+    if(listaNumerosPares.isEmpty()){
+        println("No hay numeros pares en esa lista")
+    }else{
+        println("${listaNumerosPares(lista)}")
+    }
 }
 fun listaNumerosPares(lista: List<Int>): MutableList<Int>{
     val listaPares: MutableList<Int> = mutableListOf()

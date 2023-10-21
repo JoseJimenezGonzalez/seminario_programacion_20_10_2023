@@ -1,7 +1,8 @@
 package ejercicio7
 
 import java.lang.StringBuilder
-
+//Crea una función que pone en mayúscula la primera letra de cada
+//palabra de un texto
 fun main(){
     val texto = "Hoy es viernes, hay que descansar. Mañana será sábado."
     println(primeraLetraMayus(texto))

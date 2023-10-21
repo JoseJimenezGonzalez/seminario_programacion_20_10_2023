@@ -5,7 +5,7 @@ import java.lang.StringBuilder
 fun main(){
     val texto = "Hoy es miercoles por lo tanto mañana será jueves"
     val subtexto = "es"
-    println("En el texto: $texto aparece la subcadena: $subtexto ${numeroVecesSubcadena(texto, subtexto)} veces")
+    println("En el texto: $texto aparece la subcadena $subtexto ${numeroVecesSubcadena(texto, subtexto)} veces")
 }
 fun numeroVecesSubcadena(texto: String, subtexto: String): Int{
     val sub = texto.split(subtexto)
