@@ -1,16 +1,15 @@
 package ejercicio34
 //Crea una función que sea capaz de encriptar y desencriptar texto
-//utilizando el algoritmo de encriptación de Karaca (debes buscar información sobre
-//él).
+//utilizando el algoritmo de encriptación de Karaca (debes buscar información sobre él).
 //Invierte el orden de la cadena y despues cambia vocales por numeros específicos.
 fun main(){
     val frase = "Hola caracola"
     println("Frase inicial")
     println(frase)
     println("Frase encriptada")
-    println("${ encriptarKaraca(frase) }")
+    println(encriptarKaraca(frase))
     println("Frase desencriptada")
-    println("${ desencriptarKaraca(encriptarKaraca(frase)) }")
+    println(desencriptarKaraca(encriptarKaraca(frase)))
 
 }
 

@@ -1,7 +1,7 @@
 package ejercicio4
 //Crea una función que determine si una cadena de texto es un palíndromo.
 fun main(){
-    var texto = "Dábale arroz a la zorra el abad"
+    val texto = "Dábale arroz a la zorra el abad"
     println("¿$texto es un palíndromo? ${esPalindromo(texto)}")
 }
 

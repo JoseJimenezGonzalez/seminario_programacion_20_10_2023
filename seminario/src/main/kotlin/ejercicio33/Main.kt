@@ -12,7 +12,7 @@ fun transformarDecimalABinario(numero: Int): Int{
     }else if(numero == 1){
         return 1
     }else{
-        var listaBinario: MutableList<Int> = mutableListOf()
+        val listaBinario: MutableList<Int> = mutableListOf()
         val divisor = 2
         var numeroDecimal = numero
         var condicion = true

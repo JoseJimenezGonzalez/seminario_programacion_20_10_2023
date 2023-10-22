@@ -6,7 +6,7 @@ fun main(){
 }
 
 fun calcularNEsimoTerminoFibo(numero: Int): Int{
-    var sucesionFibo = mutableListOf(0, 1)
+    val sucesionFibo = mutableListOf(0, 1)
     for(i in 2 until numero){
         sucesionFibo.add(sucesionFibo[i-2] + sucesionFibo[i-1])
     }

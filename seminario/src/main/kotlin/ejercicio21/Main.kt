@@ -2,7 +2,7 @@ package ejercicio21
 
 fun main(){
     val palabra = "Hola soy jose"
-    println("${invertirCadenaTexto(palabra)}")
+    println(invertirCadenaTexto(palabra))
 }
 fun invertirCadenaTexto(texto: String): String{
     var cadenaInvertida = ""

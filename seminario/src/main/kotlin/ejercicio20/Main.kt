@@ -1,5 +1,5 @@
 package ejercicio20
-
+//Calcular el factorial
 fun main(){
     val numero = 5
     println("El factorial del numero $numero es ${factorial(numero)}")
