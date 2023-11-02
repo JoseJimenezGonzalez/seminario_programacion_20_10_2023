@@ -12,6 +12,6 @@ fun main() {
 }
 
 fun contieneSoloLetrasYEspacios(cadena: String): Boolean {
-    val patron = Regex("[A-Za-z ]*\$")
+    val patron = Regex("[A-Za-z ]+\$")
     return patron.matches(cadena)
 }
