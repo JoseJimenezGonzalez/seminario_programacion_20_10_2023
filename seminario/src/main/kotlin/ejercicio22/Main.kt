@@ -9,7 +9,7 @@ fun main(){
 fun esNumeroPerfecto(numero: Int): Boolean{
     var res = false
     val listaDivisores = mutableListOf<Int>()
-    for (i in 1..<numero){
+    for (i in 1..numero-1){
         if(numero % i == 0){
             listaDivisores.add(i)
         }
